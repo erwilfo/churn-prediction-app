@@ -5,7 +5,7 @@ import joblib
 
 # Load the trained model
 def load_model():
-    return joblib.load("/content/drive/MyDrive/Colab Notebooks/AIML_M4W1/churn_prediction_model_v1_0.joblib")
+    return joblib.load("churn_prediction_model_v1_0.joblib")
 
 model = load_model()
 
